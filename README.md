@@ -1,4 +1,6 @@
-# fresh project
+# Bitcoin price checker
+
+A Fresh framework demo site
 
 ### Usage
 
@@ -9,3 +11,5 @@ deno task start
 ```
 
 This will watch the project directory and restart as necessary.
+
+[![Made with Fresh](https://fresh.deno.dev/fresh-badge-dark.svg)](https://fresh.deno.dev)
