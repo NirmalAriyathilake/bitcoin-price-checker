@@ -59,12 +59,8 @@ export const handler: Handlers<Price | null> = {
   async GET(_, ctx) {
     const resp = await fetch(url);
 
-    console.log('APPLOG : ', resp);
-
     if (resp.status === 200) {
       const price: Price = await resp.json();
-
-      console.log('APPLOG :: price : ', price);
       return ctx.render(price);
     }
 
